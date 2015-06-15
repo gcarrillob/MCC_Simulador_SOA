@@ -52,10 +52,10 @@ public class Simulation {
 			nextEvent.getHandler().respondToEvent(nextEvent, this);
 		}
 	}
-	
+	//read trace file and load time in arraylist working and repairing
 	private void loadTraceFile(){
 		String trace;
-	    FileReader f;
+                FileReader f;
 		try {
 			f = new FileReader(trace_fp);
 			BufferedReader br = new BufferedReader(f);
